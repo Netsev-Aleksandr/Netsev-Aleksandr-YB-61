@@ -1,0 +1,5 @@
+text = input("Введите текст: ")
+colons_count = text.count(":")
+modified_text = text.replace(":", "-")
+print(f"Количество замен: {colons_count}")
+print(f"Новая строка: {modified_text}")
